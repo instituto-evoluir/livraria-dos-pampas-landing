@@ -2,3 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+.book-item img {
+    max-height: 250px;
+    max-width: 180px;
+}
