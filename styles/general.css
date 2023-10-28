@@ -3,6 +3,30 @@
     padding: 0;
 }
 
+/* Cabeçalho da página */
+header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Menu de navegação */
+nav {
+    margin-top: 30px;
+}
+
+.menu-item { font-size: 13px; list-style: none; }
+.menu-link { color: white; text-decoration: none; }
+.menu-link:hover { color: gray }
+
+#menu { 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+/* Galeria */
 .book-item img {
     max-height: 250px;
     max-width: 180px;
